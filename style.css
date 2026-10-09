@@ -47,6 +47,25 @@ h1,h2,h3,h4{
     z-index:100;
     border-bottom:1px solid #EEE;
 }
+.back-home-wrapper{
+    padding:24px 4% 0 4%;
+}
+.back-home-btn{
+    background:#fff;
+    border:1px solid #EEE;
+    padding:12px 22px;
+    font-size:10px;
+    border-radius:30px;
+    cursor:pointer;
+    transition:.3s;
+    display:inline-flex;
+    gap:8px
+}
+.back-home-btn:hover{
+    background:#111;
+    color:#fff;
+    transform:translateX(-6px);
+}
 .logo{
     font-family:Cormorant Garamond;
     font-weight:700;
